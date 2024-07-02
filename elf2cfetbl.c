@@ -2505,7 +2505,7 @@ int32 LocateAndReadUserObject(void)
  *
  */
 
-int32 OutputDataToTargetFile()
+int32 OutputDataToTargetFile(void)
 {
     int32 Status = SUCCESS;
     uint8 AByte  = 0;
